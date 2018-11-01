@@ -1,0 +1,49 @@
+.doraemon{
+    animation:A 2s linear infinite;
+    -moz-animation:A 2s linear infinite;
+    -webkit-animation:A 2s linear infinite;
+    -o-animation:A 2s linear infinite;
+    -ms-animation:A 2s linear infinite;
+}
+@keyframes A{
+    0%{top:80px;}
+    50%{top:40px;}
+    100%{top:80px;}
+}
+.bell{
+    animation:B 1s linear infinite;
+    -moz-animation:B 1s linear infinite;
+    -webkit-animation:B 1s linear infinite;
+    -o-animation:B 1s linear infinite;
+    -ms-animation:B 1s linear infinite;
+}
+@keyframes B{
+    0%{transform: rotate(-10deg);}
+    50%{transform:rotate(10deg);}
+    100%{transform: rotate(-10deg);}
+}
+.arm-left{
+    transform-origin: 20% 30%;
+    animation:C 1s linear infinite;
+    -moz-animation:C 1s linear infinite;
+    -webkit-animation:C 1s linear infinite;
+    -o-animation:C 1s linear infinite;
+    -ms-animation:C 1s linear infinite;
+}
+@keyframes C{
+    0%{transform: rotate(198deg);}
+    50%{transform: rotate(230deg);}
+    100%{transform: rotate(198deg);}
+}
+.bamboo-fly{
+    animation:D 3s linear infinite;
+    -moz-animation:D 3s linear infinite;
+    -webkit-animation:D 3s linear infinite;
+    -o-animation:D 3s linear infinite;
+    -ms-animation:D 3s linear infinite;
+}
+@keyframes D{
+    0%{transform: rotatey(0deg);}
+    50%{transform: rotatey(180deg);}
+    100%{transform: rotatey(0deg);}
+}
